@@ -211,7 +211,7 @@ a {
   background-color: #ffffff;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: url("../../img/main-background.jpg");
+  background-image: url("./../img/main-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-user-select: none;
@@ -223,7 +223,7 @@ a {
   width: 100%;
   min-height: 807px;
   margin-bottom: 100px;
-  background-image: linear-gradient(to bottom, #ffffff 82%, transparent 82%), url("../../img/main-background.jpg");
+  background-image: linear-gradient(to bottom, #ffffff 82%, transparent 82%), url("./../img/main-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #000000;
@@ -335,10 +335,10 @@ a {
 
 @supports (-webkit-appearance:none) {
   .main-title {
-    background-image: url("../../img/main-background.webp");
+    background-image: url("./../img/main-background.webp");
   }
 
   .main-title__wrapper {
-    background-image: linear-gradient(to bottom, #ffffff 82%, transparent 82%), url("../../img/main-background.webp");
+    background-image: linear-gradient(to bottom, #ffffff 82%, transparent 82%), url("./../img/main-background.webp");
   }
 }
