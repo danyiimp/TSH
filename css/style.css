@@ -472,6 +472,9 @@ a {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 .popover__list {
